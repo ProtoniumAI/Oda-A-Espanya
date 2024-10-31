@@ -1,15 +1,29 @@
 <style>
+    html {
+        box-sizing: border-box;
+        font-family: monospace;
+    }
     body {
         background-color: white;
-        font-family: monospace;
+        margin: 0;
+        padding: 2rem;
         text-align: center;
     }
     pre {
         background-color: white;
         color: black;
-        font-size: 24px;
-        margin: 20% auto;
-        width: 50%;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        max-width: 50rem;
+        margin: 2rem auto;
+        padding: 2rem;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    @media (min-width: 768px) {
+        pre {
+            font-size: 2rem;
+        }
     }
 </style>
 <pre>
